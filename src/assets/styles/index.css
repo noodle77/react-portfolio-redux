@@ -1,0 +1,268 @@
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #007BFF;
+}
+
+section {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project h3 {
+  padding: 10px;
+}
+
+.project a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.resume-section h1, .resume-section h2, .resume-section h3 {
+  color: #333;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.resume-header {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.resume-start {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.resume-subheader {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+  color: #333;
+}
+
+h1, .subtitle, .contact-info {
+  text-align: center;
+}
+
+.profile-description, .experience-section, .education-section, ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.resume-footer {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.resume-footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-footer a:hover {
+  text-decoration: underline;
+}
+
+.about-me-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-me-section img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.about-me-section h2 {
+  clear: both;
+  color: #333;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.about-me-section p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #666;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .about-me-section img {
+      display: block;
+      float: none;
+      margin: 0 auto 20px;
+  }
+}
