@@ -51,7 +51,7 @@ function Resume() {
             </ul>
 
             <footer className='resume-footer'>
-                <a href="resume.pdf" download>Download PDF Resume</a>
+                <a href="../assets/docs/resume.pdf" download>Download PDF Resume</a>
             </footer>
         </section>
     );
