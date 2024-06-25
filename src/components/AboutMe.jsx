@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <section className="about-me-section">
             <h2>About Me</h2>
-            <img src="/src/assets/img/profile.jpg" alt="Developer" className="profile-img" />
+            <img src="/assets/img/profile.jpg" alt="Developer" className="profile-img" />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Odio pellentesque diam volutpat commodo sed. Volutpat blandit 
             aliquam etiam erat velit scelerisque in dictum. Enim blandit volutpat maecenas volutpat blandit 
